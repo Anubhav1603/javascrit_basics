@@ -7,6 +7,7 @@ import { Callback } from "../components/callback";
 import { Book } from "../components/book";
 import { BetterCount } from "../components/usereducer";
 import { LayoutEffect } from "../components/layouteffect";
+import { CustomHook } from "../components/custom";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Book />
       <BetterCount />
       <LayoutEffect />
+      <CustomHook />
     </>
   );
 }
