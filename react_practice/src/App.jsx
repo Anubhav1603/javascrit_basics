@@ -5,6 +5,7 @@ import { ColorChange } from "../components/colorchange";
 import { CalCulation } from "../components/calCulation";
 import { Callback } from "../components/callback";
 import { Book } from "../components/book";
+import { BetterCount } from "../components/usereducer";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <CalCulation />
       <Callback />
       <Book />
+      <BetterCount />
     </>
   );
 }
