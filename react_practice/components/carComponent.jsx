@@ -13,10 +13,14 @@ export const CarComponent = () => {
   };
   return (
     <>
+      <h1>Example of useState</h1>
       <p>The name of the car is {carData.name}</p>
       <p>The brand of the car is {carData.brand}</p>
       <p>The manufactuerer of the car is {carData.manufactuerer}</p>
       <button onClick={changeInfo}>Change Information</button>
+      <br />
+      <br />
+      <br />
     </>
   );
 };
