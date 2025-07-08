@@ -3,6 +3,7 @@ import { CarComponent } from "../components/carComponent";
 import { Timer } from "../components/timer";
 import { ColorChange } from "../components/colorchange";
 import { CalCulation } from "../components/calCulation";
+import { Callback } from "../components/callback";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       <Timer />
       <ColorChange />
       <CalCulation />
+      <Callback />
     </>
   );
 }
