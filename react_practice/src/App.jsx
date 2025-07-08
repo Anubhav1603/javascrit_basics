@@ -4,6 +4,7 @@ import { Timer } from "../components/timer";
 import { ColorChange } from "../components/colorchange";
 import { CalCulation } from "../components/calCulation";
 import { Callback } from "../components/callback";
+import { Book } from "../components/book";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <ColorChange />
       <CalCulation />
       <Callback />
+      <Book />
     </>
   );
 }
