@@ -1,6 +1,10 @@
 // Find the power of a number using a loop.
 
-let base = 2;
-let exponent = 4;
-let result = base ** exponent;
-console.log(result);
+const findpower = (base, exponent) => {
+  let result = 1;
+  for (let i = 0; i < exponent; i++) {
+    result = result * base;
+  }
+  return result;
+};
+console.log(findpower(5, 2));
